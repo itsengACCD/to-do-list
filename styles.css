@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: rgb(255, 162, 0);
+    padding: 40px 200px;
+    margin: 100px 200px 20px 200px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: none;
+}
+
+input {
+    width: 80%;
+    margin: 0px;
+    padding: 20px;
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px 0px 0px 50px;
+    background: #ffffff;
+    color: black;
+}
+
+.addBtn {
+    width: 20%;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #0f51a2;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.addBtn:hover {
+    background-color: #9bc1e5;
+    color: #0f51a2;
+}
+
+ul{
+    margin: auto;
+    width: 50%;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    margin: 10px;
+    border-radius: 999.9px;
+    list-style-type: none;
+    background: #ffd17a;
+    color:#753200;
+    transition: 0.2s;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #ffe6ab;
+}
+
+ul li:hover {
+    background: #9bc1e5;
+}
+
+ul li.checked {
+    background: #a7a7a7;
+    color:#000000;
+    text-decoration: line-through;
+}
+
+.far {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    padding: 12px 14px 12px 14px;
+    color: #000000;
+    border-radius: 999.9px;
+}
+
+.far:hover {
+    background-color: rgb(198, 36, 36);
+    color: #ffffff;
+    border-radius: 999.9px;
+}
